@@ -4,3 +4,4 @@ numpy
 implicit
 google-cloud-bigquery
 openai
+db-dtypes
