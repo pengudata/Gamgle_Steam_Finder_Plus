@@ -159,7 +159,7 @@ def load_game_mappings():
 def load_model_and_mappings():
     """니치 게임 추천 모델을 로드합니다."""
     try:
-        with open('../data/model/playtime_basic_full_3.pkl', 'rb') as f:
+        with open('./model/playtime_basic_full_3.pkl', 'rb') as f:
             model = pickle.load(f)
         with open('./model/playtime_basic_full_3_item_map.pkl', 'rb') as f:
             item_map = pickle.load(f)
