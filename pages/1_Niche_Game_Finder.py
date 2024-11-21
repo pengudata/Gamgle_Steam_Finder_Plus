@@ -21,7 +21,7 @@ st.markdown("""
     <style>
     body {
         background-color: #1E1E1E;
-        color: #E0E0E0;
+        color: #D0D0D0;
     }
     .main-title {
         font-size: 2.5em;
