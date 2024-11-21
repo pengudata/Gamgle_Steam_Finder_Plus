@@ -21,13 +21,12 @@ st.markdown("""
     <style>
     body {
         background-color: #1E1E1E;
-        color: #D0D0D0;
+        color: #E0E0E0;
     }
     .main-title {
         font-size: 2.5em;
         color: #BB86FC;
         font-weight: bold;
-        /* text-shadow 제거 */
     }
     .sub-title {
         font-size: 1.2em;
@@ -54,7 +53,7 @@ st.markdown("""
         margin-bottom: 1rem;
         font-size: 28px;
         font-weight: bold;
-        color: #FFFFFF;
+        color: #E0E0E0;
         background: rgba(187, 134, 252, 0.1);
         padding: 10px;
         border-radius: 10px;
