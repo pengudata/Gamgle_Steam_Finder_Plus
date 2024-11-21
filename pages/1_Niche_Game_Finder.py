@@ -27,7 +27,7 @@ st.markdown("""
         font-size: 2.5em;
         color: #BB86FC;
         font-weight: bold;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        /* text-shadow 제거 */
     }
     .sub-title {
         font-size: 1.2em;
@@ -77,7 +77,7 @@ st.markdown("""
         transition: transform 0.3s ease;
         width: 100%;
         max-width: 500px;
-        border: 2px solid #BB86FC;
+        /* border 제거 */
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(187, 134, 252, 0.2);
     }
