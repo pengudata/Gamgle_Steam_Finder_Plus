@@ -115,7 +115,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# 여기서부터는 기존 코드와 유사하지만 모델만 다르게 로드
 @st.cache_data
 def load_game_mappings():
     try:
